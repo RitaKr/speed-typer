@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(113,48,253), rgb(152,45,156));
+    background-size: 100vh 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.settings {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(37, 15, 63);
+    color: white;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(110,128,180);
+    padding: 15px;
+}
+.container-title {
+    background: rgb(37, 15, 63);
+    color: white;
+    text-align: center
+}
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.title {
+    color: rgb(52,15,63);
+    text-align: center;
+
+}
+#text {
+    width: 100%;
+    padding: 5px;
+}
+.end-game {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+    font-size: 2em;
+}
+.end-game h1 {
+    line-height: 0.5em;
+
+    
+}

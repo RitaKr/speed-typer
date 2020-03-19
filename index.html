@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Игра на скорость печати</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="settings">
+            <form id="settings-form">
+                <label>Уровень игры</label>
+                <select id="select">
+                    <option value="easy">Легко</option>
+                    <option value="middle">Средне</option>
+                    <option value="hard">Сложно</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container-title">Игра на скорость печати</h2>
+            <div class="time-container">
+                <div class="time-left">Time left: <span id="time">10s</span></div>
+                <div class="score-container">Score: <span id="score">0</span></div>
+            </div>
+            <div class="title">Напишите слово: </div>
+            <h1 id="word"> </h1>
+            <input type="text" id="text" autocomplete="off" placeholder="Напишите слово">
+            
+            <div class="end-game" id="end-game">
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
