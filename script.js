@@ -17,7 +17,12 @@ const words = [
     'parrot',
     'coding',
     'robot',
-    'programm'
+    'programm',
+    'game',
+    'hand',
+    'helmet',
+    'pencil',
+    'skill'
 ];
 let randomWord;
 let score = 0;
